@@ -9,8 +9,7 @@
 "layers": [
   {
     "id": "Gabbroid-layer",
-    "source": "geology",
-    "type": "fill",
+    "type": "background",
     "paint": {
       "fill-color": "#00ffff"
     }
