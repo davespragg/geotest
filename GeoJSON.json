@@ -2,7 +2,7 @@
     "sources": {
       "task-thermal-source": {
         "type": "geojson",
-        "data": "https://raw.githubusercontent.com/tceglar/heat/master/data/bigsample.geojson"
+        "url": "http://ogc.bgs.ac.uk/digmap625k_gsml_cgi_gs/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=GeologicUnitView&outputFormat=application/json"
       }
     },
 "layers": [
