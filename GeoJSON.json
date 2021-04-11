@@ -1,0 +1,19 @@
+{
+    "sources": {
+      "geology": {
+        "type": "geojson",
+        "data": "http://ogc.bgs.ac.uk/digmap625k_gsml_cgi_gs/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=GeologicUnitView&outputFormat=application/json      }
+    },
+
+
+"layers": [
+  {
+    "id": "Gabbroid-layer",
+    "source": "geology",
+    "type": "fill",
+    "paint": {
+      "fill-color": "#00ffff"
+    }
+  }
+]
+}
