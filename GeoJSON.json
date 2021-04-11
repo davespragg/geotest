@@ -8,7 +8,8 @@
 "layers": [
   {
     "id": "Geo layer",
-    "type": "background",
+    "source": "geology",
+    "type": "fill",
     "paint": {
       "fill-color": "#00ffff"
     }
